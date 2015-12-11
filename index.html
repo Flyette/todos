@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<link rel="stylesheet" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:700' rel='stylesheet' type='text/css'>
+    <script type='text/javascript' src="jquery-2.1.4.min.js"></script>
+    <script type='text/javascript' src="apps.js"></script>
+    
+
+	<title>Todo MVC</title>
+
+</head>
+
+
+<body>
+	<header><h1>Todo</h1></header>
+	<h2 class='tache'></h2>
+	<div class="boite">
+		<form>
+			<center><input id="textedit" class="barre" type="text" name="search" placeholder="What needs to be done?" autofocus=""/></center>
+		</form>
+
+		<ul id="todolist">
+		</ul>
+
+	</div>
+
+
+		<ul class="info">
+			<li id="all"><button>All</button></li>
+			<li id="active"><button>Active</button></li>
+			<li id="complet"><button>Completed</button></li>
+			<li id="effacer"><button>Clear completed</button></li>
+		</ul>
+
+
+	<footer>
+		<ul class="enbas">
+			<li>Double click</li>
+			<li>created by Hayate</li>
+			<li>Refactored</li>
+			<li>Part of todo</li>
+		</ul>
+	</footer>
+</body>
+</html>

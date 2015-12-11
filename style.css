@@ -1,0 +1,86 @@
+body {
+	text-align: center;
+	margin: 0 auto;
+	width: 900px;
+	font-family: 'Libre Baskerville', serif;
+	background: #50a3a2;
+    background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%)
+}
+h1 {
+	text-align: center;
+	color: #795548;
+	font-size: 100px;
+	}
+h2 {
+	text-align: center;
+	color: #a1887f;
+	font-size: 60px;
+
+}	
+.boite {
+	margin: 130px 0px 40px;
+	position: relative;
+	width: 900px;
+
+}
+.barre {
+	width: 890px;
+	height: 30px;
+}
+
+#todolist {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 50px;
+	list-style: outside none none;
+
+}
+div.list{
+	background: 
+}
+div.list:hover {
+	background-color: #C6E4E1;
+}
+div.list{
+	background-color: #FFF;
+}
+input[type="checkbox"]{
+	outline: medium none;
+}
+#todolist li{
+	font-size: 24px;
+	padding: 2px;
+}
+div.list {
+	border: solid 0.5px;
+	border-color: grey;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: outside none none
+
+}
+.info li{
+	text-align: center;
+	padding:10px 15px;
+	height: 20px;
+	display: inline;
+}
+.enbas li {
+	list-style-type: none;
+	color: grey;
+}
+.checkbox {
+	margin-right:20px;
+}
+#textedit {
+	font-size: 24px;
+}
+
+.barret {
+	text-decoration: line-through;
+}
